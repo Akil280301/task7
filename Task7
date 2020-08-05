@@ -1,0 +1,12 @@
+list1 = [12, -7, 5, 64, -14]
+list2 = [12, 14, -95, 3]
+res1 = []
+res2 = []
+for num in list1:
+    if num > 0:
+        res1.append(num)
+print(res1)
+for num in list2:
+    if num > 0:
+        res2.append(num)
+print(res2)
